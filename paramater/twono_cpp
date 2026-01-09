@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int fun(int a,int b){
+    int res = a*a+b*b+2*a*b;
+    return res;
+}
+int main() {
+ 
+   cout<<fun(2,3);
+    return 0;
+}
